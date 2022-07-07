@@ -1,5 +1,5 @@
 function bhaskara(a,b,c){
-    let delta = Math.pow((b,2) - 4*a*c)
+    let delta = Math.abs(Math.pow((b,2) - 4*a*c))
     let vec = Array(2)
 
     if (delta < 1){
